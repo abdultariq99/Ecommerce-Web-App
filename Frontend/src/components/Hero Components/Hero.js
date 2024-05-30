@@ -14,11 +14,11 @@ function Hero (props){
 </p>
             <div className='flex flex-row w-4/5 h-38 mt-10'>
                 <button className='bg-yellow-main text-aesthetic-white text-sm md:text-lg  py-2 px-4 rounded-full h-12 w-36 mr-10'>Add To Cart</button>
-                <a href='https://www.google.com/' className='text-yellow-main flex flex-row items-center justify-evenly w-36'><span>Explore More</span><FontAwesomeIcon icon={faRightToBracket} /></a>
+                <a href='https://www.google.com/' className='text-yellow-main flex flex-row items-center justify-evenly w-36'><span>Explore More</span><FontAwesomeIcon icon={faRightToBracket} className='pt-1' /></a>
             </div>
             </div>
             <div>
-            <img src={heroShoe} height={1200} width={1200}/>
+            <img src={heroShoe} height={1200} width={1200}/> 
             </div>
         </div>
         </div>
