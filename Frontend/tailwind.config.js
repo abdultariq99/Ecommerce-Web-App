@@ -12,7 +12,7 @@ module.exports = {
         'yellow-main' : '#edab03',
       },
       fontFamily: {
-        'Main' : ['Lora']
+        'Main' : ['Taviraj']
       }
     },
   },
